@@ -72,4 +72,4 @@ RUN apt-get update \
 VOLUME ["/your-app", ["/root/.config"]
 WORKDIR /your-app
 
-ENTRYPOINT ["/bin/bash"]
+CMD /bin/bash
